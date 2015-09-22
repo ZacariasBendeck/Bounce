@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"update",
+				"update_idletasks"
+			],
+			[
 				"hit",
-				"hit_bottom"
+				"hit_paddle"
 			],
 			[
 				"paddle",
@@ -24,11 +28,23 @@
 	"buffers":
 	[
 		{
-			"file": "Bounce.py",
+			"file": "Bounce3.py",
 			"settings":
 			{
-				"buffer_size": 2906,
+				"buffer_size": 4067,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "button.py",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "from Tkinter import *"
 			}
 		}
 	],
@@ -56,6 +72,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Usuario/Dropbox/Cursos/Python For Kids/Ch.13 Game Bounce/.git/COMMIT_EDITMSG",
 		"/C/Users/Usuario/Dropbox/Cursos/Python For Kids/Ch.13 Game Bounce/Paddle game.sublime-project",
 		"/C/Users/Usuario/Dropbox/Cursos/Python For Kids/Ch.13 Game Bounce/paddlegame.py",
 		"/C/Users/Usuario/Dropbox/Cursos/Python For Kids/print 'Hello World'.py",
@@ -106,18 +123,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Bounce.py",
+					"file": "Bounce3.py",
 					"settings":
 					{
-						"buffer_size": 2906,
+						"buffer_size": 4067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18,
-								18
+								1523,
+								1523
 							]
 						],
 						"settings":
@@ -127,7 +144,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -135,8 +152,36 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "button.py",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from Tkinter import *",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -159,21 +204,21 @@
 				1
 			],
 			[
-				1,
 				0,
-				2,
-				1
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.907310704961,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -202,7 +247,7 @@
 		[
 			[
 				"",
-				"/C/Users/Usuario/Dropbox/Cursos/Python For Kids/Ch.13 Game Bounce/Paddle game.sublime-project"
+				"/C/Users/Usuario/Dropbox/Cursos/Udacity/Courses/Intro_to_HTML_and_CSS/Bootstrap/My_Projects_Website.sublime-project"
 			]
 		],
 		"width": 380.0
